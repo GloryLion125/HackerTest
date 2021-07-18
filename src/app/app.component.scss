@@ -1,0 +1,64 @@
+.content {
+    padding: 30px;
+    overflow-x: auto;
+}
+
+.header {
+    margin-bottom: 40px;
+}
+
+table {
+    width: 100%;
+}
+
+tr th {
+    text-transform: capitalize;
+}
+  
+tr.example-detail-row {
+    height: 0;
+}
+
+tr.comment-row:not(.example-expanded-row):hover {
+    background: whitesmoke;
+}
+
+tr.comment-row:not(.example-expanded-row):active {
+    background: #efefef;
+}
+
+.comment-row td {
+    border-bottom-width: 0;
+}
+
+.comment-detail {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-diagram {
+    min-width: 80px;
+    border: 1px solid black;
+    padding: 8px;
+    font-weight: lighter;
+    margin: 8px 0;
+}
+
+.comment-symbol {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: normal;
+}
+
+.comment-time {
+    margin: 5px 0;
+    font-weight: 500;
+}
+
+.comment-by {
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
